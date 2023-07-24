@@ -1,41 +1,45 @@
-# Angular MoviesExpo
+# Angular Movies | TV Shows (beta)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.9.
+## 🚀 Getting Started
 
-## Development server
+Angular Movies | TV Shows is a simple web app that consumes The Movie DB API, it can show you interesting data about popular movies and series - **still working on it**.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+See **Installing** for steps to make it work in your local environment.
+## 💻 Live Demo
 
-## Angular  FlixMovies & TV Shows was generated with:
+✔ Github Pages: https://jancobh.github.io/Angular-Movies/ (new with Angular 14 + improvements + still working on it).
 
-- Angular CLI version 8.3.9
-- Angular 8.3.9
-- Angular Material 8.1.4
-- AngularFire 5.2.1
-- Firebase js SDK 7.1.0
-- Rxjs 6.5.2
-- PrimeNg Library 8.0 -> https://www.primefaces.org/primeng/#/
-- The Movie DB get Your own api key -> https://www.themoviedb.org
-- Firebase get your own firebase data -> https://firebase.google.com
-
-Live Demo https://flixmovies-82298.firebaseapp.com
+❌ Firebase hosting: https://angular-movies-c91ba.firebaseapp.com/ (old with Angular 8 and a lot of unnecessary code with bugs).
 
 
-## Installation
+## 📋 Prerequisites
+
+* <a href="https://nodejs.org/es/" target="_blank">Node JS</a> - You need it to use npm
+* <a href="https://angular.io/cli" target="_blank">Angular CLI</a> - Command-line interface tool needed to manage Angular applications
+* <a href="https://developers.themoviedb.org/3" target="_blank">The Movie DB API</a> - Click the link to get your own API
+
+## 🔧 Installing
 
 ```bash
-git clone https://github.com/abidakram01/angular-movie-app.git
-cd angular-movie-app
+git clone https://github.com/JancoBH/Angular-Movies.git
+cd Angular-Movies
 npm install
-ng serve and go to http://localhost:4200/
+ng serve and enjoy it
 ```
+Go to Angular-Movies\src\environments and change ```environments.ts``` and ```environments.prod.ts``` theMovieDBApi object prop with your own The Movie DB API Key.
 
-<p align="center">
-    <a href="https://flixmovies-82298.firebaseapp.com">
-        <img src="https://github.com/abidakram01/FlixMovies/blob/master/moviesScreen.png" alt="FlixMovies" />
-    </a>
-</p>
+## 🛠️ Built With
 
-## Become a contributor ?
+* <a href="https://angular.io/" target="_blank">Angular</a> 15.0.4 - The Web Framework used
+* <a href="https://material.angular.io/" target="_blank">Angular Material</a> 15.0.3 - The UI Component Library
 
-Find a bug, contribute some code or suggest ideas ? don't hesitate ! Create a pull request or an issue.
+## 📦 Deployment
+
+You can check <a href="https://angular.io/guide/deployment" target="_blank">Angular Deployment guide</a> to learn how to deploy this project.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+🧑‍💻 Developed by [JancoBH](https://github.com/JancoBH)
